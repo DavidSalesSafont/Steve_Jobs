@@ -1,0 +1,21 @@
+body{background-color:#c4e3ff;}
+main{text-align:center;}
+a{font-size:20px;}
+a.a{text-decoration:none;color:blue;}
+a.a:hover{background-color: yellow; color:red;}
+.tuberias{color:blue; text-align:center;}
+h1{text-align:center; color:blue; font-weight:1;}
+h1::first-letter{font-size:3em;color:black;}
+.p1{font-size:12px;}
+.p1::first-line{color:red;}
+img{float:right;}
+#be{color:white;}
+t:visited{background-color:blue;}
+#aa{background-color: blue;color:white;}
+#aa:visited{background-color: blue;color:white;}
+a:visited{background-color: blue;color:white;}
+a:link{background-color: white;}
+#bol{font-weight: 600;counter-reset:productos-cuenta}
+.productos::before{content:counter(productos-cuenta); counter-increment: productos-cuenta;}
+#chiquito{font-size: 11px;}
+
